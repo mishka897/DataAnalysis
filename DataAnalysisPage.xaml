@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+        xmlns="http://xamarin.com/schemas/2014/forms" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        xmlns:local="clr-namespace:DataAnalysis" 
+        x:Class="DataAnalysis.DataAnalysisPage"
+        Title="MainPage">
+    <ContentPage.Content>
+        <StackLayout x:Name="StackLayout1" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label x:Name="Header1" Text="DataSet1" TextColor="Blue" Font="Big"/> 
+            <Label x:Name="LieferdienstLabel1" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="ServiceLabel1" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="DateLabel1" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="AnzahlLabel1" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="CustomerLabel1" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="KantonLabel1" Text="" TextColor="Blue" Font="Medium"/>
+        </StackLayout>
+        <!--
+        <StackLayout x:Name="StackLayout2" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label x:Name="Header2" Text="DataSet2" TextColor="Blue" Font="Big"/> 
+            <Label x:Name="LieferdienstLabel2" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="ServiceLabel2" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="DateLabel2" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="AnzahlLabel2" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="CustomerLabel2" Text="" TextColor="Blue" Font="Medium"/>
+            <Label x:Name="KantonLabel2" Text="" TextColor="Blue" Font="Medium"/>
+        </StackLayout>
+        -->
+    </ContentPage.Content>
+</ContentPage> 
